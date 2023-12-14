@@ -1,0 +1,8 @@
+# excercise
+    * Formatting
+    * create one web page to wirte one email (as per your choice), use formatting tags.
+    * simple form (optional)
+
+# excercise [Book]
+    * use block scope and inline element to design one layout page. (ref. image_1)
+    * create one page as index page of a book. if you click on specific then user should be able to redirect on a certain topic.
