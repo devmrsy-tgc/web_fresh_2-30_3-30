@@ -1,0 +1,15 @@
+/* index.html */
+.base-file {
+    margin-left: 12px;
+}
+
+/* day_4 */
+table, td, th {
+    border: 1px solid black;
+    /* border-collapse: collapse; */
+    border-radius: 10px;
+}
+
+td {
+    text-align: center;
+}

@@ -1,0 +1,17 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 16px;
+    padding: 16px;
+    min-height: 90vh;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
+h1 {
+    text-align: center;
+}
