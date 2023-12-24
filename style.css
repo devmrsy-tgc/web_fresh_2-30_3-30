@@ -18,7 +18,7 @@ td {
 
 /* day 5 */
 
-ul {
+ul.day-5 {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -26,11 +26,11 @@ ul {
     background-color: #333333;
 }
 
-li {
+.day-5 li {
     float: left;
 }
 
-li a {
+.day-5 li a {
     display: block;
     color: white;
     text-align: center;
@@ -38,6 +38,6 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+.day-5 li a:hover {
     background-color: #484848;
 }
