@@ -13,16 +13,21 @@
     <h1>Web Fresh batch - Timing 02:30 to 03:30</h1>
     <section class="base-file">
         <ul>
-            <li id="day_4"><a href="/day_4.html">day 4 table</a></li>
-            <li id="day_5"><a href="/day_5.html">day 5</a></li>
+            <li><a id="day_4">day 4 table</a></li>
+            <li><a id="day_5">day 5</a></li>
         </ul>
     </section>
 
     <script>
-        var baseURL = "/web_fresh_2-30_3-30";
+        var isDevelopment = false;
 
-        var day_4PageURL = baseURL + "/day_4.html";
-        var day_5PageURL = baseURL + "/day_5.html";
+
+        var baseURL = isDevelopment ? "http://127.0.0.1:5500/": "/web_fresh_2-30_3-30/";
+
+        var day_4PageURL = baseURL + "day_4.html";
+        var day_5PageURL = baseURL + "day_5.html";
+
+        console.log(day_4PageURL, 'day_4PageURL')
 
         var listItems = document.querySelectorAll("ul li");
         listItems.forEach(function (li) {
