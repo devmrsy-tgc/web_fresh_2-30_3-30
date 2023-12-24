@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,13 +8,40 @@
     <link href="./style.css" rel="stylesheet" />
     <link href="./global.css" rel="stylesheet" />
 </head>
+
 <body>
     <h1>Web Fresh batch - Timing 02:30 to 03:30</h1>
     <section class="base-file">
         <ul>
-            <li><a href="/day_4.html">day 4</a></li>
-            <li><a href="/day_5.html">day 5</a></li>
+            <li id="day_4"><a href="/day_4.html">day 4 table</a></li>
+            <li id="day_5"><a href="/day_5.html">day 5</a></li>
         </ul>
     </section>
+
+    <script>
+        // var isDevelopment = false; // Change this to false for production
+        //   var baseURL = isDevelopment ? "http://localhost:5501/PORTFOLIO" : "/PORTFOLIO";
+
+        var day_4PageURL = "/day_4.html";
+        var day_5PageURL = "/day_5.html";
+
+        var listItems = document.querySelectorAll("ul li");
+        listItems.forEach(function (li) {
+            var anchorElement = li.querySelector("a");
+            switch (anchorElement.id) {
+                case "day_4":
+                    document
+                        .querySelector("#day_4")
+                        .setAttribute("href", day_4PageURL);
+                    break;
+                case "day_5":
+                    document
+                        .querySelector("#day_5")
+                        .setAttribute("href", day_5PageURL);
+                    break;
+            }
+        });
+    </script>
 </body>
+
 </html>
