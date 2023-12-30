@@ -5,36 +5,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nested List Example</title>
-    <style>
-        /* Add some indentation for nested lists */
-    </style>
+    <link href="./global.css" rel="stylesheet" />
+    <link href="./style.css" rel="stylesheet" />
+    <!-- <script>
+        function submitData(event) {
+            event.preventDefault()
+            fetch('http://localhost:3001/data', { name: "sooraj" })
+        }
+    </script> -->
 </head>
 
 <body>
-    <h1>Excercise of day 5</h1>
+    <section class="page-section">
 
-    <h2>Learning Web Development</h2>
+        <h1>Excercise of day 5</h1>
 
-    <ol type="I">
-        <li>Background skills
-            <ol type="A">
-                <li>Unix Commands</li>
-                <li>Vim Text Editor</li>
-            </ol>
-        </li>
-        <li>HTML
-            <ol type="A">
-                <li>Minmial Page</li>
-                <li>Heading
-                    <ol type="i">
-                        <li>Unix Commands</li>
-                        <li>Vim Text Editor</li>
-                    </ol>
-                </li>
-            </ol>
-        </li>
-    </ol>
+        <h2>Learning Web Development</h2>
 
+        <ol type="I">
+            <li>Background skills
+                <ol type="A">
+                    <li>Unix Commands</li>
+                    <li>Vim Text Editor</li>
+                </ol>
+            </li>
+            <li>HTML
+                <ol type="A">
+                    <li>Minmial Page</li>
+                    <li>Heading
+                        <ol type="i">
+                            <li>Unix Commands</li>
+                            <li>Vim Text Editor</li>
+                        </ol>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+    </section>
+    <section class="page-section">
+
+        <h1>Excercise of day 6 - form</h1>
+
+        <form action="http://localhost:3001/data" method="POST">
+            <label for="firstname">First name</label>
+            <input type="text" id="firstname" name="firstname" placeholder="enter your first name" required />
+            <br />
+
+            <label for="lastname">Last name</label>
+            <input type="text" id="lastname" name="lastname" placeholder="enter your last name" required />
+            <br />
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <section class="note-section">
+            <h3>HTTP methods</h3>
+            <span>GET,</span><span> POST,</span><span> PUT,</span><span> UPDATE,</span>
+        </section>
+
+    </section>
 </body>
 
 </html>
