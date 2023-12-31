@@ -1,43 +1,43 @@
 /* index.html */
 .base-file {
-    margin-left: 12px;
+  margin-left: 12px;
 }
 
 /* day_4 */
 table,
 td,
 th {
-    border: 1px solid black;
-    /* border-collapse: collapse; */
-    border-radius: 10px;
+  border: 1px solid black;
+  /* border-collapse: collapse; */
+  border-radius: 10px;
 }
 
 td {
-    text-align: center;
+  text-align: center;
 }
 
 /* day 5 */
 
 ul.day-5 {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333333;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
 }
 
 .day-5 li {
-    float: left;
+  float: left;
 }
 
 .day-5 li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
 }
 
 .day-5 li a:hover {
-    background-color: #484848;
+  background-color: #484848;
 }
