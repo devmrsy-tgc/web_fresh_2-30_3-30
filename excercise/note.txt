@@ -17,3 +17,7 @@
 
 # Form 5
     form with json server (ref. image_2)
+
+# Form 6
+    sign up form
+    employee onboarding form
